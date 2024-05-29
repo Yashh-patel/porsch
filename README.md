@@ -18,15 +18,6 @@ To get started with Porsch, follow these steps:
 
    git clone https://github.com/200583043/porsch.git
 
-2. Navigate to the project directory:
-
-   cd porsch
-
-3. Install the necessary dependencies:
-
-   [insert installation command, e.g., npm install or pip install -r requirements.txt]
-
-
 ## Usage
 
 To run the application, use the following command:
