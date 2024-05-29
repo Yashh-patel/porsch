@@ -1,149 +1,171 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>POrsch | Login & Registration</title>
+    <title>Porsche</title>
+    <link rel="stylesheet" href="css/porsch.css">
+    
 </head>
 <body>
- <div class="wrapper">
-    <nav class="nav">
-        <div class="nav-logo">
-            <p>PORSCH</p>
-        </div>
-        <div class="nav-menu" id="navMenu">
+    
+    <div class="nav-bar">
+        <img src="Img/porschlogo-removebg-preview.png" height="60%">
+        <h1 class="logo">PORSCHE</h1> 
+        <nav>
             <ul>
-                <li><a href="#" class="link active">Home</a></li>
-             <li><a href="#" class="link">Blog</a></li>
-                <li><a href="#" class="link">Services</a></li>
-                <li><a href="#" class="link">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About us</a></li>
+                <li><a href="#Latest-Collection">Latest Collection</a></li>
+                <li><a href="#Shop">Shop</a></li>
             </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
-            <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
-        </div>
-        <div class="nav-menu-btn">
-            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
-        </div>
-    </nav>
-
-<!----------------------------- Form box ----------------------------------->    
-    <div class="form-box">
-        
-        <!------------------- login form -------------------------->
-
-        <div class="login-container" id="login">
-            <div class="top">
-                <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
-                <header>Login</header>
-            </div>
-            <div class="input-box">
-                <input type="text" class="input-field" placeholder="Username or Email">
-                <i class="bx bx-user"></i>
-            </div>
-            <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
-                <i class="bx bx-lock-alt"></i>
-            </div>
-            <div class="input-box">
-                <input type="submit" class="submit" value="Sign In">
-            </div>
-            <div class="two-col">
-                <div class="one">
-                    <input type="checkbox" id="login-check">
-                    <label for="login-check"> Remember Me</label>
-                </div>
-                <div class="two">
-                    <label><a href="#">Forgot password?</a></label>
-                </div>
-            </div>
-        </div>
-
-        <!------------------- registration form -------------------------->
-        <div class="register-container" id="register">
-            <div class="top">
-                <span>Have an account? <a href="#" onclick="login()">Login</a></span>
-                <header>Sign Up</header>
-            </div>
-            <div class="two-forms">
-                <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Firstname">
-                    <i class="bx bx-user"></i>
-                </div>
-                <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Lastname">
-                    <i class="bx bx-user"></i>
-                </div>
-            </div>
-            <div class="input-box">
-                <input type="text" class="input-field" placeholder="Email">
-                <i class="bx bx-envelope"></i>
-            </div>
-            <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
-                <i class="bx bx-lock-alt"></i>
-            </div>
-            <div class="input-box">
-                <input type="submit" class="submit" value="Register">
-            </div>
-            <div class="two-col">
-                <div class="one">
-                    <input type="checkbox" id="register-check">
-                    <label for="register-check"> Remember Me</label>
-                </div>
-                <div class="two">
-                    <label><a href="#">Terms & conditions</a></label>
-                </div>
-            </div>
-        </div>
+        </nav>
     </div>
-</div>   
+    <section id="home">
+    <video autoplay loop muted type> <source src="Img/coverr-rear-view-of-a-porsche-911-turbo-s-9150-1080p.mp4" > </video>
+
+    <div class=content>
+    
+    <h1>
+        Choose <br> boldly
+    </h1>
+    <button alt="Discover more">
+        <i>D</i>
+        <i>I</i>
+        <i>S</i>
+        <i>C</i>
+        
+        <i>C</i>
+        <i>O</i>
+        <i>V</i>
+        <i>E</i>
+        <i>R</i>
+        <i>&nbsp;</i>
+        <i>M</i>
+        <i>o</i>
+        <i>R</i>
+        <i>E</i>
+      </button>
+    </div>
 
 
-<script>
+    </section>
+    
+    </div>
+    <section id="About">
+        <h1 class="begin">
+            About us
+                    </h1>
+        <div class="abt">
+<img src="Img/porschlogo.jpeg".jpg  alt="logo">
+<p>
+    What is the company description of Porsche?
+Porsche 
+Dr. Ing. h.c. F. Porsche AG, usually shortened to Porsche (German pronunciation: [ˈpɔʁʃə]; see below), is a German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans, headquartered in Stuttgart, Baden-Württemberg, Germany.
+</p>
+        </div>
+      
+        
+        </section>
+        <section id="Latest-Collection">
+            <h1 class="begin2"> Latest collection</h1>
+            <div class="car-info">
+                <img src="Img/photo-1580274455191-1c62238fa333-removebg-preview.png">
+                <div class="info">
+                    <h2>The new 911 GT3 with Touring Package.</h2>
+                    <p>The 911 GT3 with Touring Package also sets the performance tone – but with focus primarily on the road. Thanks to ingenious aerodynamics, cornering remains impressive, even without a large rear wing.</p>
+                   
+                   <a href="#https://www.porsche.com/canada/en/models/911/911-gt3-models/911-gt3-touring/">
+                    <button>Discover more</button>
+                   </a>
+                    
+                
+                </div>
+            </div>
+          
+        </section>
    
-   function myMenuFunction() {
-    var i = document.getElementById("navMenu");
+        <section class="grid-container" id="Shop">
+          
+            <div class="product">
+                <img src="Img/porsch911gt3.jpeg" alt="Product 1">
+                <h2>The new 911 GT3 with Touring Package.</h2>
+                <p>Iconic sports car known for its timeless design and exhilarating performance</p>
+                 <button>Buy now</button>
+            </div>
+            <div class="product">
+                <img src="Img/2021-porsche-911-turbo-s-pdk-296-1608061360.jpg" alt="Product 2">
+                <h2>Porsch 911 turbo 2021 version</h2>
+                <p> Luxury SUV combining elegance with powerful engine options for versatile driving experiences.</p>
+                 <button>Buy now</button>
+            </div>
+            <div class="product">
+                <img src="Img/download (1).jpeg" alt="Product 3">
+                <h2>Porsche Sporty sedan</h2>
+                <p>Sporty sedan offering a blend of performance, comfort, and cutting-edge technology.</p>
+                 <button>Buy now</button>
+            </div>
+            <div class="product">
+                <img src="Img/black.jpeg" alt="Product 4">
+                <h2>Clasic Brand new 911 Porsche </h2>
+                <p>Compact SUV delivering agile handling and sporty driving dynamics in a versatile package.</p>
+                 <button>Buy now</button>
+            </div>
+            <div class="product">
+                <img src="Img/clasic.jpeg" alt="Product 3">
+                <h2>1900 Porsche with best modification</h2>
+                <p>Convertible sports car renowned for its mid-engine layout and thrilling open-air driving experience.</p>
+                 <button>Buy now</button>
+            </div>
+            <div class="product">
+                <img src="Img/911 porscha 11.jpeg" alt="Product 3">
+                <h2>Metalic electric sedan</h2>
+                <p>All-electric luxury sedan setting new standards for performance and sustainability in the automotive industry.</p>
+                <button>Buy now</button>
+            </div>
+        
+        </section>
+        <section class="footer" id="cont">
 
-    if(i.className === "nav-menu") {
-        i.className += " responsive";
-    } else {
-        i.className = "nav-menu";
-    }
-   }
- 
-</script>
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>Quick Navigation </h3>
+                    <a href="#home">home</a>
+                    <a href="#About">about</a>
+                    <a href="#Latest-Collection">products</a>
+                    
+                    <a href="#cont">contact</a>
+                </div>
+        
+            
+        
+                <div class="box">
+                    <h3>Locations in Ontario</h3>
+                    <a href="#">Downtown Toronto</a>
+                    <a href="#">Vaughan</a>
+                    <a href="#">Lakeshore</a>
+                    <a href="#">Markham</a>
+                </div>
+        
+                <div class="box">
+                    <h3>Contact info</h3>
+                    <a href="#">+1-777-888-9999</a>
+                    <a href="#">reception@porschenorthtoronto.ca</a>
+                    <a href="#">Toronto,M2J 4R2</a>
+                    
+                </div>
+        
+            </div>
+        
+            <div class="credit"> created <span> for the class project </span> | all rights reserved </div>
+         
+        </section>
+                
+    </body>
+       
 
-<script>
-
-    var a = document.getElementById("loginBtn");
-    var b = document.getElementById("registerBtn");
-    var x = document.getElementById("login");
-    var y = document.getElementById("register");
-
-    function login() {
-        x.style.left = "4px";
-        y.style.right = "-520px";
-        a.className += " white-btn";
-        b.className = "btn";
-        x.style.opacity = 1;
-        y.style.opacity = 0;
-    }
-
-    function register() {
-        x.style.left = "-510px";
-        y.style.right = "5px";
-        a.className = "btn";
-        b.className += " white-btn";
-        x.style.opacity = 0;
-        y.style.opacity = 1;
-    }
-
-</script>
-
+       
 </body>
 </html>
