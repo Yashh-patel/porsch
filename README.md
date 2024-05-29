@@ -9,7 +9,9 @@ Welcome to the Porsch project! This repository contains the codebase for [Porsch
 ## Features
 
 -Interactive Video Background: Engaging homepage with a dynamic video background to captivate visitors.
+
 -Customizable Button Animations: Unique button animations for an interactive and visually appealing user experience.
+
 -Product Showcase: Detailed sections highlighting Porsche's latest collections and iconic models with images and descriptions.
 
 ## Installation
